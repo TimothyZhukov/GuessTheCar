@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
                 imageViewCar.setImageBitmap(bitmap);
                 for (int i = 0; i < buttons.size(); i++) {
                     if (i == numberOfRightAnswer) {
-                        buttons.get(i).setText(names.get(numberOfQuestion) + " ->Right answer");
+                        buttons.get(i).setText(names.get(numberOfQuestion));
                     } else {
                         int wrongAnswer = generateWrongAnswer();
                         buttons.get(i).setText(names.get(wrongAnswer));
